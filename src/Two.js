@@ -24,8 +24,6 @@ import {
     ModalCloseButton,
 } from '@chakra-ui/react'
 import PopUp from "./components/Modal";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import One from "./One";
 
 function Two() {
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -123,11 +121,7 @@ function Two() {
     };
     return (
         <>
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<One />} />
-                </Routes>
-            </BrowserRouter>
+
 
             <div>
                 <Table>
