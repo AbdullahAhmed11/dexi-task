@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from "react";
 import {
-
   Box,
-
   Text,
-
 } from '@chakra-ui/react'
-import PopUp from "./components/Modal";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import One from "./One";
 import Two from "./Two";
 import Three from "./Three"
